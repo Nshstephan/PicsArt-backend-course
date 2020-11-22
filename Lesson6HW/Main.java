@@ -5,9 +5,9 @@ import java.io.FileNotFoundException;
 import java.lang.reflect.Array;
 import java.util.*;
 
-public class HW6 {
+public class Main {
     public static void main(String[] args) throws FileNotFoundException {
-        Scanner inputStream = new Scanner(new FileInputStream("D:\\IntelIiJ\\PicsArt\\src\\Pics\\txt.txt"));
+        Scanner inputStream = new Scanner(new FileInputStream("D:\\IntelIiJ\\PicsArt\\src\\Pics\\info.txt"));
         ArrayList<String> arr = new ArrayList<>();
 
         while (inputStream.hasNextLine()) {
