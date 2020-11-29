@@ -31,9 +31,7 @@ public class AdventureBookService {
 
     public void printToFile(String address, AdventureBook b) throws IOException
     {
-//        PrintWriter os =
-//                new PrintWriter(new FileOutputStream(address));
-//        os.println(b);
+
         File file=new File(address);
         FileWriter fw = new FileWriter(file.getAbsoluteFile(), true);
         BufferedWriter bw = new BufferedWriter(fw);
