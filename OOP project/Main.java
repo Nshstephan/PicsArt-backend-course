@@ -65,6 +65,7 @@ public class Main {
                     break;
                 default:
                     flag=false;
+                    System.out.println("Bye!");
                     break;
 
             }
