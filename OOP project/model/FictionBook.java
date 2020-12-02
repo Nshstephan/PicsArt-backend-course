@@ -1,4 +1,4 @@
-package com.main;
+package com.model;
 
 public class FictionBook extends Book {
     private boolean hasMovie;

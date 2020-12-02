@@ -1,4 +1,4 @@
-package com.main;
+package com.model;
 
 public class DetectiveBook extends FictionBook {
     private String crime; //type of crime

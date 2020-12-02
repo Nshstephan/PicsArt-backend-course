@@ -1,5 +1,8 @@
 package com.main;
 
+import com.model.AdventureBook;
+import com.service.AdventureBookService;
+
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Scanner;

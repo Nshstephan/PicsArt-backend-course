@@ -1,4 +1,4 @@
-package com.main;
+package com.model;
 
 public class Book implements Printable, Cloneable {
     private String ISBN;

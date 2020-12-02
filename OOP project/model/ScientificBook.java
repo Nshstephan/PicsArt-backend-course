@@ -1,4 +1,4 @@
-package com.main;
+package com.model;
 
 public class ScientificBook extends Book {
     private String field; // physics, chemistry...

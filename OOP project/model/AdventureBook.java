@@ -1,4 +1,4 @@
-package com.main;
+package com.model;
 
 public class AdventureBook extends FictionBook {
     private String mainCharacter;

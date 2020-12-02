@@ -1,4 +1,4 @@
-package com.main;
+package com.model;
 
 public interface Printable {
     int getNumOfPages();

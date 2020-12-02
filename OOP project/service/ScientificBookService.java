@@ -1,4 +1,6 @@
-package com.main;
+package com.service;
+
+import com.model.ScientificBook;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -83,7 +85,7 @@ public class ScientificBookService {
         File file=new File(address);
         FileWriter fw = new FileWriter(file.getAbsoluteFile(), true);
         BufferedWriter bw = new BufferedWriter(fw);
-        bw.write(b.toString()+ "   ");
+        bw.write("\n"+b.toString());
         bw.close();
     }
 
