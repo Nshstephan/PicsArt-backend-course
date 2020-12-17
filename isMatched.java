@@ -7,7 +7,7 @@ public class isMatched {
     public static boolean isMatched(String expression) {
         final String opening = "({[";
         final String closing = ")}]";
-        Deque<Character> buffer = new LinkedList<>();
+        Deque<Character> buffer = new ArrayDeque<>();
         for (char c : expression.toCharArray()) {
             if (opening.indexOf(c) != -1)
                 buffer.push(c);
