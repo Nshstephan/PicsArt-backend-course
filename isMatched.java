@@ -27,9 +27,9 @@ public class isMatched {
         String expr = "asdawd(DWQD[{wdqfer}ewfrwe])";
 
         if (isMatched(expr))
-            System.out.println("Balanced ");
+            System.out.println("Brackets are balanced ");
         else
-            System.out.println("Not Balanced ");
+            System.out.println("Brackets are not balanced ");
     }
 }
 
